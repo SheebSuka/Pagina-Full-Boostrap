@@ -1,29 +1,25 @@
 .navbar-transparent {
-  background-color: transparent !important; 
-  border-bottom: none; 
-  box-shadow: none; 
+  background-color: transparent !important;
+  border-bottom: none;
+  box-shadow: none;
 }
 
 .navbar-nav .nav-link {
-  color: white !important; 
+  color: white !important;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ddd !important; 
+  color: #ddd !important;
 }
 .navbar-brand {
   color: white !important;
 }
 
-p {
-  color: white;
+.justify-content {
+  text-align: justify;
 }
 
-h2 {
-  color: white;
-}
-
-body {
+body { /* For Dott at background*/
   --dot-bg: black;
   --dot-color: white;
   --dot-size: 1px;
