@@ -18,8 +18,8 @@ p {
 h2 {
   color: white;
 }
+
 body {
-  color: #ddd;
   --dot-bg: black;
   --dot-color: white;
   --dot-size: 1px;
