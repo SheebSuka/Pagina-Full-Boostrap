@@ -1,32 +1,23 @@
-html, body {
-    height: 100%;
+.navbar-transparent {
+    background-color: transparent !important; /* Makes the background transparent */
+    border-bottom: none; /* Optional: removes the bottom border if present */
+}
+
+.nav-link {
+    color: white !important; /* Adjusts the color of the nav links for visibility */
+}
+
+.nav-link:hover {
+    color: #ddd !important; /* Hover effect for better visibility */
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-}
-
-footer {
-    margin-top: auto;
-}
-
-.hero-section {
-    background-image: url('/img/Stock.jpeg'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Ajusta la altura según sea necesario */
-}
-.imagenes{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.footer #kittyfoot{
-    
+  --dot-bg: black;
+  --dot-color: white;
+  --dot-size: 1px;
+  --dot-space: 22px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
 }
